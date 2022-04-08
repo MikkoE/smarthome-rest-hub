@@ -1,0 +1,6 @@
+version: "3"
+services:
+  smarthome-rest-hub:
+    build: .
+    ports:
+      - "12000:8080"

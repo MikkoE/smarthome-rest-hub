@@ -1,0 +1,20 @@
+{
+  "name": "smarthome-rest-hub",
+  "version": "1.0.0",
+  "description": "for urls that are controlling multi parts of the home",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikkoE/smarthome-rest-hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikkoE/smarthome-rest-hub/issues"
+  },
+  "homepage": "https://github.com/MikkoE/smarthome-rest-hub#readme"
+}
