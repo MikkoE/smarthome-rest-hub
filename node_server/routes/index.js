@@ -15,7 +15,7 @@ router.get('/:scene', (req,res)=>{
     switch (scene) {
         case 1: // küche an
             console.log("turning kitchen lights on")
-            var body = {"on": true}
+            var body = {"on": true, "bri": 254,}
 
             axios.put('http://192.168.178.136/api/-kft5OkDjuXXzojboZxroWDrwkyNqP57cSm6PJhl/groups/1/action', body)
                 .then((res) => {
@@ -27,7 +27,7 @@ router.get('/:scene', (req,res)=>{
 
             break;
         case 2: // küche aus
-            console.log("turning kitchen lights on")
+            console.log("turning kitchen lights off")
             var body = {"on": false}
 
             axios.put('http://192.168.178.136/api/-kft5OkDjuXXzojboZxroWDrwkyNqP57cSm6PJhl/groups/1/action', body)
